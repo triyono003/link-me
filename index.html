@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>page</title>
+    </head>
+    <body>
+        <button onclick="show()">coba tekan</button>
+        <div class="idShow" style="display: none">
+            <p
+                style="
+                    width: 100px;
+                    height: 20px;
+                    padding: 10px;
+                    text-align: center;
+                    background: skyblue;
+                    margin-top: 50%;
+                    margin-left: 35%;
+                "
+            >
+                sesok prei !!
+            </p>
+        </div>
+        <script>
+            function show() {
+                const show = document.querySelector(".idShow");
+                show.style.display = "block";
+            }
+        </script>
+    </body>
+</html>
